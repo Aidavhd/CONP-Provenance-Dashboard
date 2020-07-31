@@ -10,7 +10,8 @@ This project aims to provide CONP Provenance dashboard and recommendation dashbo
   2. This project was bootstraped with "Create React App" by facebook[1].
   
   3. In project directory you can run:
-      `npm start`.
+  
+      `npm start`
       
       Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
       
