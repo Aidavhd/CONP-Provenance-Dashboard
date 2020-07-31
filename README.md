@@ -3,14 +3,15 @@ This project aims to provide CONP Provenance dashboard and recommendation dashbo
 
 **This project is a part of "CONP Recommender" project which is available on: https://github.com/mandana-mazaheri/CONP-recommender**
 
-#Installation: 
+# Installation: 
 
   1. Makes sure to store the dashboardBackend file where the databse and JSON files(the results of "Provenance-Based" and "Tag-Based" recommenders) stored in "CONP Recommender" project.
   
   2. This project was bootstraped with "Create React App" by facebook[1].
   
   3. In project directory you can run:
-      `npm start` 
+      `npm start`.
+      
       Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
       
   4. In this project **Material Design** which was created and designed by Google used[2].
@@ -20,7 +21,7 @@ This project aims to provide CONP Provenance dashboard and recommendation dashbo
   
   
   
-#Refrences:
+# Refrences:
 1. https://reactjs.org
 2. https://materializecss.com
 3. https://apexcharts.com
