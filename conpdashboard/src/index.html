@@ -1,0 +1,54 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    <title>Pipeline chart</title>
+</head>
+<body>
+    <div class="container">
+        <canvas id="pipelineChart"></canvas>
+    </div>
+
+    <script>
+        let pipelineChart = document.getElementById('pipelineChart').getContext('2d');
+        let massPopChart = new Chart(myChart, {
+            type: 'bar', // bar,pie, line
+            data:{
+                labels:['Example Boutiques Tool', 'Example Boutiques Tool', 
+                        'FreeSurferPipelineBatch-CentOS7',
+                        'fsl_bet', 'fsl_fast', 'fsl_first',
+                        'Example Boutiques Tool', 'FLIRT',
+                        'MCFLIRT', 'fslstats', 'Dipy Deterministic Tracking'],
+                datasets:[{
+                    label: 'Number of pipeline usage',
+                    data:[
+                      1,
+                      1,
+                      7,
+                      12,
+                      1,
+                      1,
+                      6,
+                      1,
+                      8,
+                      9,
+                      6  
+                    ],
+                    borderWidth:1,
+                    borderColor:'#777',
+                    hoverBorderWidth:3,
+                    hoverBorderColor: '#000'
+                
+
+                }]
+                
+            },
+            option:{}
+        });
+    </script>
+</body>
+</html>
