@@ -26,5 +26,3 @@ This project aims to provide CONP Provenance dashboard and recommendation dashbo
 1. https://reactjs.org
 2. https://materializecss.com
 3. https://apexcharts.com
-
-      
